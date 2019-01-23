@@ -1,0 +1,27 @@
+header {
+        text-align: center;
+}
+
+h3 {
+    background-color: lightgray;
+    border: 2px;
+    color: navy;
+}
+div {
+    column-count: 2;
+    column-gap: 100px;
+  }
+
+article {
+    background-color: grey;
+    border: solid black 1px;
+}
+
+article > h3 {
+    font-size: 1em;
+    background-color: solid grey;
+}
+
+article:hover {
+    background: lightgray;
+}
