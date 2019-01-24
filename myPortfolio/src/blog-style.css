@@ -1,27 +1,45 @@
 h1 {
-        color:blue;
-        width: 60%;
-        margin: 5% auto;
-    } 
-    
-    main {
-        width: 60%;
-        margin: 5% auto;
-        background: beige;
-    }
-    
-    article{
-        background-color: white;
-        border: solid grey 2px;
-        margin: 1% auto;
-        width: 95%;
-    
-    }
-    
-    article > h3 {
-        font-size: 1em;
-    }
-    
-    article:hover {
-        background: lightgray;
-    }
+    color: black;
+    width: 60%;
+    margin: 5% auto;
+}
+
+body {
+    background: lightgrey;
+}
+
+main {
+    width: 60%;
+    margin: 5% auto;
+    background: whitesmoke;
+}
+
+article { 
+    margin: 1% auto;
+    border: solid black 2px;
+    width: 97%;
+    background: white;
+    text-indent: 1em;
+}
+
+article > h3 {
+    font-size: 1em;
+}
+
+article:hover {
+    background: grey;
+}
+
+article:hover > h3 {
+    color: blue;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: center; 
+}
