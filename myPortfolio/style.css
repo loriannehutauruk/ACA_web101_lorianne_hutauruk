@@ -84,7 +84,10 @@ body {
     padding: 20px; 
     padding-bottom: 5%;
     text-align: center;
-    color: white;
     letter-spacing: 16px;
     font-style: italic;
+  }
+
+  button a {
+    color: white;
   }
