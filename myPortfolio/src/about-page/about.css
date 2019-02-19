@@ -1,0 +1,58 @@
+* {
+    /* margin: auto; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    background-color: whitesmoke;
+}
+
+header h2 {
+    margin: auto;
+    padding: 20px;    
+}
+
+header p {
+    background-color: grey;
+    margin: auto;
+    padding: 15px;
+    color: whitesmoke;
+}
+
+.quote {
+    position: relative;
+    text-align: center;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.quote i {
+    font-size: 20px;
+    line-height: 25px;
+    position: absolute;
+    left: 50px;
+    padding: 50px;
+}
+
+.background-image {
+    display: block;
+    filter: grayscale(80%);
+}
+
+.profile-list {
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+    padding: 40px;
+}
+.profile-pic {
+    width: 280px;
+    height: 350px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+  }
+
