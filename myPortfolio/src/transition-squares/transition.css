@@ -1,0 +1,27 @@
+.A {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    margin: auto;
+    transition: all 3s ease-out;
+}
+
+.B {
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    margin: auto;
+    transition: all 3s ease-out;
+}
+
+div:hover div:nth-child(odd) {
+    background-color: red;
+    transform: scale(2,2) translate(200px) rotate(360deg);
+}
+
+div:hover div:nth-child(even) {
+    background-color: blue;
+    transform: scale(0.5,0.5) translate(-400px) rotate(-360deg);
+}
+
+
