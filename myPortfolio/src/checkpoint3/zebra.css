@@ -1,0 +1,40 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(/zebra.jpg);
+}
+
+.container {
+    background-color: burlywood;
+    width: 400px;
+    margin: 300px auto;
+    padding: 10px;
+}
+
+#zebracontainer {
+    margin: 0 40px auto;
+}
+.tree {
+    height: 10%;
+    width: 10%;
+}
+
+#click {
+    width: 100px;
+}
+
+#creds {
+    width: 150px;
+}
+
+
+
+#generator1amount {
+    width: 10px;
+}
+
+#generator1 {
+    width: 110px;
+}
